@@ -1,0 +1,58 @@
+*{
+    background-color: aquamarine;
+  }
+  
+  #container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #name{
+    font-size: xx-large;
+    font-family:cursive;
+  }
+  
+  #game{
+    display: flex;
+    flex-wrap: wrap;
+    width: 375px;
+    justify-content:space-between;
+  }
+  
+  .box{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: wheat;
+    font-size: xx-large;
+    font-family: cursive;
+  }
+  
+  #reset-btn , #new-btn {
+    background-color: gray;
+    color: white;
+    width: 150px;
+    height: 50px;
+    margin: 1%;
+    border-radius: 10px;
+    font-family:serif;
+    font-size: x-large;
+  }
+  
+  #msg{
+    font-size: xx-large;
+    font-family:cursive;
+  }
+  
+  .msg-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hide{
+    display: none;
+  }
