@@ -60,5 +60,3 @@ To run the tests for this project, ensure you have a testing framework set up. I
 ```bash
 npm test
 ```
-
-Feel free to customize this README file to better fit your project!
